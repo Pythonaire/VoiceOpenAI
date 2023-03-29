@@ -2,7 +2,6 @@
 //  WebService.swift
 //  VoiceOpenAI
 //
-//  Created by Peter Wiechmann on 16.03.23.
 //
 import SwiftUI
 
