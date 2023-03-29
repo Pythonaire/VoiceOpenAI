@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  VoiceOpenAI
 //
-//  Created by Peter Wiechmann on 16.03.23.
+//
 //
 import SwiftUI
 import Speech
@@ -30,10 +30,10 @@ class AppDelegate: NSObject, NSApplicationDelegate,  NSWindowDelegate  {
             floatingPanel.isMovableByWindowBackground = true
             floatingPanel.level = .floating
          
-         /*
+         
             let mainWindow = NSApp.windows[0]
                 mainWindow.delegate = self
-          */
+          
         let apiView = APIView().edgesIgnoringSafeArea(.all).background(VisualEffects().edgesIgnoringSafeArea(.all))
         let contentView = ContentView(requ:Requester(), st: SpeechAndText()).edgesIgnoringSafeArea(.all)
             .background(VisualEffects().edgesIgnoringSafeArea(.all)
