@@ -2,7 +2,6 @@
 //  VisualEffects.swift
 //  VoiceOpenAI
 //
-//  Created by Peter Wiechmann on 17.03.23.
 //
 
 import SwiftUI
